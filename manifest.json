@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Video Frame Capture",
-  "version": "1.0",
+  "version": "1.1",
   "description": "A tool for capturing frames from videos. You can capture certain frames from videos, or capture frames from a video in a specified time range. All images are saved in PNG, and they are automatically downloaded to the default download path of your browser.",
   "permissions": [
     "activeTab",
