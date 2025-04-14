@@ -2,23 +2,33 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>frame catch settings</title>
+    <title>Frame Capture Settings</title>
+    <style>
+        .shortcut-container {
+            margin: 10px 0;
+        }
+        .error-message {
+            color: red;
+            display: none;
+            margin: 5px 0;
+        }
+    </style>
 </head>
 <body>
     <form>
         <div>
             <label>
-                threshold of image similarity (0-1):
+                Image Similarity Threshold (0-1):
                 <input type="number" id="threshold" min="0" max="1" step="0.1">
             </label>
         </div>
         <div>
             <label>
-                save path:
+                Save Path:
                 <input type="text" id="savePath" placeholder="e.g. : D:\captures">
             </label>
         </div>
-        <button type="submit">save</button>
+       
     </form>
     <script src="options.js"></script>
 </body>

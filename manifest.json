@@ -32,32 +32,6 @@
     },
     "open_at_install": true
   },
-  "commands": {
-    "screenshot": {
-      "suggested_key": {
-        "default": "Ctrl+Shift+S"
-      },
-      "description": "catch a screenshot"
-    },
-    "start-recording": {
-      "suggested_key": {
-        "default": "Ctrl+Shift+R"
-      },
-      "description": "start recording"
-    },
-    "stop-recording": {
-      "suggested_key": {
-        "default": "Ctrl+Shift+X"
-      },
-      "description": "stop recording"
-    },
-    "custom-record": {
-      "suggested_key": {
-        "default": "Ctrl+Shift+C"
-      },
-      "description": "self-defined recording"
-    }
-  },
   "icons": {
     "48": "icons/icon48.png",
     "16": "icons/icon16.png",
